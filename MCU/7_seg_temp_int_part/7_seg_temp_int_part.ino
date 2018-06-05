@@ -17,7 +17,6 @@ void setup() {
     //Serial.println(lupTable[index[1]],HEX);
     //Serial.println(lupTable[index[0]],HEX);
 }
-
 void loop() {
   PORTD=lupTable[index[1]]; //cc code of dp0
   digitalWrite(8,LOW);   //cc0
